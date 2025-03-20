@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(0, 55, 55);
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover a,
+.navbarul li.active a {
+    color: rgb(187, 138, 13);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: #fff;
+}
+
+.home-info h1{
+    font-size: 55px;
+}
+
+.home-info h2{
+    font-weight: 32px;
+    margin-top: 10px;
+}
+
+.home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(187, 138, 13);
+    border:2px solid rgb(187, 138, 13);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(187, 138, 13);
+    font-size: 16px;
+    color: rgb(0, 55, 55);
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    color: rgb(187, 138, 13);
+    box-shadow: none;
+}
+
+.home-info .btn-sci .sci{
+    margin-left: 20px;
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid rgb(187, 138, 13);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgb(187, 138, 13);
+    margin: 0 8px;
+    transition: .5s;
+} 
+
+.home-info .btn-sci .sci a:hover{
+    background: rgb(187, 138, 13);
+    color: rgb(0, 55, 55);
+    box-shadow: 0 0 10px;
+}
+
+.home-img .img-box{
+    width: 32vw;
+    height: 32vw;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.home-img .img-box .img-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgb(187, 138, 13);
+    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-img .img-box .img-item img{
+    position: relative;
+    display: block;
+    width: 85%;
+    object-fit: cover;
+}
+
+.Certificate{
+    color: rgb(187, 138, 13);
+    font-size: 50px;
+
+}
+
+.about{
+    color: rgb(187, 138, 13);
+    font-size: 50px;
+}
+
+.contact{
+    color: rgb(187, 138, 13);
+    font-family: 30px;
+}
